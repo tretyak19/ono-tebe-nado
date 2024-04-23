@@ -25,10 +25,28 @@ blockquote {
   padding: 0;
 }
 
+header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  width: 1052px;
+  margin: 92px 24px 96px;
+  font-weight: 400;
+  font-size: 18px;
+  text-underline-position: under;
+}
+
 a {
   color: inherit;
 }
 
 img {
   width: 100%;
+}
+
+footer {
+  display:grid;
+  grid-template-columns: 240px 1fr 240px;
+  width: 1000px;
+  margin: 158px 50px 88px;
+  font-size: 18px;
 }
